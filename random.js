@@ -46,3 +46,5 @@ class Random {
     return this.randomChoice(...arr);
   }
 }
+// Uncomment the line below for NodeJS usage
+// module.exports = Random;
