@@ -2,11 +2,11 @@
 A small JavaScript library with a few kinds of random.
 
 ## Installation
-For usage in **web**, paste this in your `<head>` element:
+For use in **web**, paste this in your `<head>` element:
 ```html
 <script src="https://raw.githubusercontent.com/Milk-Cool/randomjs/main/random.js"></script>
 ```
-For **NodeJS** usage, download the `random.js` file and uncomment the last line.
+For **NodeJS** use, download the `random.js` file and uncomment the last line.
 Then, use it in any script just like this:
 ```js
 const Random = require("./random.js"); // Or whatever you called it
