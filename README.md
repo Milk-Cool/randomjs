@@ -29,7 +29,7 @@ Does the same as `Random.randomFloat` but only returns integers.
 ### Random.timedRandom
 Returns a truly random integer. The algorithm is based on comparing two `Date` objects - while they're equal, the counter increases. See the source code for better understanding.
 ### Random.seedRandom
-Returns a seed-based "random" number in the range of *[0, 1]*. To define the seed, when creating th `Random` object, specify the seed as the first argument:
+Returns a seed-based "random" number in the range of *[0, 1)*. To define the seed, when creating th `Random` object, specify the seed as the first argument:
 ```js
 const Random = new Random(5021); // Instead of 5021 you can use any number or number-like object.
 ```
